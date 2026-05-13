@@ -14,7 +14,7 @@ In many fields—from finance to genomics—selecting an optimal subset is a com
 ### Optimization Logic (The Fitness Function)
 The core of the GA is a weighted fitness function that calculates a fitness score for every potential solution. The algorithm seeks to maximize:
 
-**Fitness = Mean(Primary) - Σ(Deviation_trait × w_trait) - (pᵀCp × [δ + γ] × w_div)**
+**Fitness = Mean(Primary) - Σ(Deviation_trait × w_trait) - (nᵀGn × [δ + γ] × w_div)**
 
 ### 1. Directional Selection
 The algorithm prioritizes the maximization of the Primary Trait mean within the selected group.
